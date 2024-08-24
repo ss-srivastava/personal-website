@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Mentor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        nav a {
+            color: #b0b0b0;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        .container {
+            padding: 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .testimonial-slider {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .testimonial-slider .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .testimonial-slider .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            padding: 1rem;
+        }
+
+        .testimonial-slider .slide .card {
+            padding: 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .testimonial-slider img {
+            max-width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .testimonial-slider figcaption {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        .testimonial-slider p {
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        @media (min-width: 768px) {
+            .testimonial-slider img {
+                max-width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Personal Mentor</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact" role="button">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section id="about">
+                <hgroup>
+                    <h2>Welcome to Personal Mentor</h2>
+                    <h3>Personalized One-on-One Mentoring</h3>
+                </hgroup>
+                <p>Your journey to success begins here. With over 50 students personally mentored in both in-person and virtual settings, personal mentor provides customized learning experiences to help you achieve your goals.</p>
+                <p>With 4 years of experience of teaching many students of class 7 to 12 and a qualification to teach classes from 7 to 10 in mathematics and experience of teach teaching up to 12 class mathematics, mentor is dedicated to providing top-notch education and guidance.</p>
+                <figure>
+                    <img src="pexels-vanessa-garcia-6325983.jpg" style="width: 600px; height: 400px;" alt="Mentor teaching a student one-on-one">
+                    <figcaption><a href="#" target="_blank">Learn more about our approach</a></figcaption>
+                </figure>
+                <h3>Why Choose Us?</h3>
+                <p>Our mentor tailors each session to meet your unique needs, ensuring effective learning and personal growth. Whether you prefer in-person or virtual meetings, we offer flexible scheduling to fit your lifestyle.</p>
+                <h3>Testimonials</h3>
+                <div class="testimonial-slider" id="testimonial-slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 1">
+                                    <figcaption>John Doe</figcaption>
+                                    <p>"The personalized attention and tailored sessions have significantly improved my understanding and performance. Highly recommend!"</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 2">
+                                    <figcaption>Jane Smith</figcaption>
+                                    <p>"My experience with this mentorship program has been transformative. The mentor's approach is both supportive and effective."</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 3">
+                                    <figcaption>Michael Brown</figcaption>
+                                    <p>"The mentor has been a game-changer in my academic and personal growth. I feel more confident and prepared."</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 4">
+                                    <figcaption>Lisa Johnson</figcaption>
+                                    <p>"I appreciate the mentor's dedication and personalized approach. It has made a huge difference in my studies."</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 5">
+                                    <figcaption>Chris Lee</figcaption>
+                                    <p>"Highly effective and engaging mentoring sessions. I have seen remarkable improvement in my skills."</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 6">
+                                    <figcaption>Sarah Kim</figcaption>
+                                    <p>"The mentor's approach is incredibly motivating and has helped me achieve my academic goals."</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 7">
+                                    <figcaption>David Wilson</figcaption>
+                                    <p>"The one-on-one sessions are extremely valuable. I have gained a lot of confidence and knowledge."</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 8">
+                                    <figcaption>Emily Davis</figcaption>
+                                    <p>"I am very grateful for the mentor's guidance and support. It has been a wonderful experience."</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 9">
+                                    <figcaption>James Moore</figcaption>
+                                    <p>"The personalized mentoring has made a significant impact on my academic performance. Highly recommend."</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card">
+                                <figure>
+                                    <img src="https://via.placeholder.com/150" alt="Student 10">
+                                    <figcaption>Anna Martinez</figcaption>
+                                    <p>"The mentor's expertise and personalized approach have been instrumental in my success."</p>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe to our newsletter</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required>
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#privacy">Privacy Policy</a> • <a href="#terms">Terms of Service</a></small>
+        <p><strong>About the Mentor:</strong> With over 4 years of experience and a qualification to teach classes from 9 to 12 in mathematics, our mentor is dedicated to providing top-notch education and guidance.</p>
+        <p><strong>Contact Information:</strong> You can reach the mentor at <a href="mailto:mentor@example.com">mentor@example.com</a> or call (123) 456-7890.</p>
+    </footer>
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.testimonial-slider .slides .slide');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            const slider = document.querySelector('.testimonial-slider .slides');
+            if (index >= totalSlides) {
+                currentSlide = 0;
+            } else if (index < 0) {
+                currentSlide = totalSlides - 1;
+            } else {
+                currentSlide = index;
+            }
+            slider.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        setInterval(nextSlide, 4000); // Change slide every 3 seconds
+    </script>
+</body>
+</html>
